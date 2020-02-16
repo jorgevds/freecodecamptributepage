@@ -1,0 +1,67 @@
+.background {
+  background: linear-gradient(beige, rgb(255, 165, 0), rgb(57, 57, 244, .6), beige);
+  z-index: 0;
+}
+
+header, footer {
+  background-color: hsl(34, 100%, 64%);
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+  padding: 0;
+  border-radius: 10px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-top: 15;
+  border-radius: 40px;
+}
+
+#img-caption {
+  text-align: center;
+  margin: 3;
+  color: hsl(12, 0, 0);
+}
+
+.headings {
+  font-weight: 500;
+  margin: inherit;
+  margin-bottom: 0;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.bio, .pro, .prize {
+  margin: 30 50;
+  background-color: rgb(255, 250, 243);
+  border-radius: 30px;
+}
+
+ul {
+  list-style: none;
+  border-radius: 30px;
+  margin: auto;
+  padding-bottom: 50;
+}
+
+li {
+  text-align: left;
+}
+
+footer {
+  padding: 20 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.1em;
+}
