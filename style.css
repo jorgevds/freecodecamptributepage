@@ -1,43 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .background {
-  background: linear-gradient(beige, rgb(255, 165, 0), rgb(57, 57, 244, .6), beige);
-  z-index: 0;
+background-color: whitesmoke;
+z-index: 0;
 }
 
 header, footer {
-  background-color: hsl(34, 100%, 64%);
+  background-color: #800020;
   display: inline-block;
   width: 100%;
   border-radius: 10px;
+  color: white;
+  text-align: center;
 }
 
-header h1 {
-  text-align: center;
+#title {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(255, 250, 243);
+  margin: 20;
+  padding: 50;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.info {
+  font-size: 2.5em;
+  padding: 80;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: auto;
-  padding-top: 15;
   border-radius: 40px;
-}
-
-#img-caption {
-  text-align: center;
-  top: 0;
-  color: hsl(12, 0, 0);
-  font-size: .8em;
 }
 
 .headings {
   font-weight: 500;
   margin: inherit;
+  padding-top: 20px;
   margin-bottom: 0;
-  display: inline-block;
+  display: block;
   text-decoration: underline;
   font-size: 1.3em;
   text-align: left;
+  color: hsl(345, 100%, 32%);
 }
 
 .bio, .pro, .prize {
@@ -47,6 +61,7 @@ img {
 }
 
 ul {
+  display: block;
   list-style: none;
   border-radius: 30px;
   margin: auto;
@@ -55,14 +70,18 @@ ul {
 
 li {
   text-align: left;
-  line-height: 1;
+  line-height: 2;
 }
 
 footer {
   padding: 20 0;
   margin: 0;
-  text-align: center;
   font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+a {
+  color: white;
 }
 
 @media only screen and (max-width: 700px) {
